@@ -125,7 +125,7 @@ appetizers = ['Kingfish Lettuce Cups','Avocado Deviled Eggs','Satay Steak Skewer
 
 ## 7. Find Ingredients Used in Only One Recipe
 
-Within in each category (_Vegan, Vegetarian, Paleo, Keto, Omnivore_), you're going to pull out ingredients that appear in only one dish.
+Within each category (_Vegan, Vegetarian, Paleo, Keto, Omnivore_), you're going to pull out ingredients that appear in only one dish.
 These "singleton" ingredients will be assigned a special shopper to ensure they're not forgotten in the rush to get everything else done.
 
 Implement the `singleton_ingredients(<dishes>, <INTERSECTIONS>)` function that takes a `list` of dishes and a `<CATEGORY>_INTERSECTIONS` constant for the same category.
